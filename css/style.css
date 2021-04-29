@@ -1,0 +1,109 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/navbar.css");
+@import url("components/employee.css");
+@import url("components/btn-violet.css");
+@import url("components/btn-green.css");
+@import url("components/container.css");
+@import url("components/notification.css");
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(images/circle.png);
+  color: #393e46;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 200px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+li a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  top: 1100px;
+  right: 43%;
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  max-height: 500px;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.background {
+  background-color: #F8f8f9;
+  max-height: 900px;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  li {
+    display:  block;
+    margin-left: 50px;
+  }
+  ul {
+    margin-right: 300px;
+  }
+  .btn-green {
+    position: absolute;
+    top: 330px;
+    right: 50px;
+  }
+  .btn-violet {
+    position: absolute;
+    left: 95px;
+    top: 1120px;
+  }
+  .notifications {
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  }
+  footer {
+    position: absolute;
+    top: 1200px;
+    right: 43%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  li {
+    display:  block;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 600px, this CSS will be read */
+  li {
+  margin-left: 20px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .btn-green {
+  padding: 15px 30px 15px 30px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+}

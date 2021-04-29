@@ -1,0 +1,17 @@
+.btn-green {
+  padding: 25px 40px 25px 40px;
+  background: linear-gradient(to right, #1CDB77, #F8f8f9);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  position: absolute;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.2);
+  top: 130px;
+  right: 100px;
+}
+
+.btn-green:hover {
+  background: linear-gradient(to right, green, #F8f8f9);
+  box-shadow: 5px 0 15px rgba(0,0,0,0.3);
+}

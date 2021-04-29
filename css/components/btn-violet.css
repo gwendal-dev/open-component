@@ -1,0 +1,17 @@
+.btn-violet {
+  padding: 30px 50px 30px 50px;
+  background: linear-gradient(to right, rgb(146, 72, 219, 1), #F8f8f9);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  position: absolute;
+  left: 95px;
+  top: 930px;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.2);
+}
+
+.btn-violet:hover {
+  background:  linear-gradient(to right, grey, #F8f8f9);;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.3);
+}
